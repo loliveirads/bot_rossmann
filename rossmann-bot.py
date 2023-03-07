@@ -61,7 +61,7 @@ def load_dataset(store_id):
 
 def predict(data):
     # Chamada da API
-    url = 'https://rossmann-predict-4nar.onrender.com'
+    url = 'https://rossmann-predict-4nar.onrender.com/rossmann/predict'
     header = {'Content-type': 'application/json'}
     data = data
 
