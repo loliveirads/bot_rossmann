@@ -135,7 +135,7 @@ def index():
 
         else:
 
-            send_mensage(chat_id, 'Store ID is Wrong')
+            send_message(chat_id, 'Store ID is Wrong')
             return Response('OK', status=200)
 
 
