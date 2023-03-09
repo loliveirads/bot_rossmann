@@ -14,16 +14,16 @@ TOKEN = '6256743741:AAGEWwfZMZIvDdwqhs444ly6hlj9PoOTbLM'
 # https://api.telegram.org/bot5869879507:AAGMhvcKGAh8vMOwt43CahFg-S95vH2qtIc/getMe
 
 # get updates
-# https://api.telegram.org/bot5869879507:AAGMhvcKGAh8vMOwt43CahFg-S95vH2qtIc/getUpdates
+# https://api.telegram.org/bot6256743741:AAGEWwfZMZIvDdwqhs444ly6hlj9PoOTbLM/getUpdates
 
 # webhook
-# https://api.telegram.org/bot5869879507:AAGMhvcKGAh8vMOwt43CahFg-S95vH2qtIc/setWebhook?url=https://cfb087759bb6be.lhr.life
+# https://api.telegram.org/bot6256743741:AAGEWwfZMZIvDdwqhs444ly6hlj9PoOTbLM/setWebhook?url=https://cfb087759bb6be.lhr.life
 
 # webhook render
-# https://api.telegram.org/bot5869879507:AAGMhvcKGAh8vMOwt43CahFg-S95vH2qtIc/setWebhook?url=https://rossmann-bot-api.onrender.com
+# https://api.telegram.org/bot6256743741:AAGEWwfZMZIvDdwqhs444ly6hlj9PoOTbLM/setWebhook?url=https://rossmann-bot-api.onrender.com
 
 # send message
-# https://api.telegram.org/bot5869879507:AAGMhvcKGAh8vMOwt43CahFg-S95vH2qtIc/sendMessage?chat_id=1124066742&text=Hi Fabrício
+# https://api.telegram.org/bot6256743741:AAGEWwfZMZIvDdwqhs444ly6hlj9PoOTbLM/sendMessage?chat_id=1124066742&text=Hi Fabrício
 
 def send_message(chat_id, text):
     url = 'https://api.telegram.org/bot/'.format(TOKEN)
